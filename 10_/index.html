@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Expanding Cards</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="panel active" style="background-image: url('https://images5.alphacoders.com/301/301905.jpg')">
+        <h3>Explore The World</h3>
+      </div>
+      <div class="panel" style="background-image: url('https://wallpapercave.com/wp/6O3HsyG.jpg')">
+        <h3>Wild Forest</h3>
+      </div>
+      <div class="panel" style="background-image: url('https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=1955&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
+        <h3>Sunny Beach</h3>
+      </div>
+      <div class="panel" style="background-image: url('https://c4.wallpaperflare.com/wallpaper/851/501/292/programming-code-minimalism-wallpaper-preview.jpg')">
+        <h3>City on Winter</h3>
+      </div>
+      <div class="panel" style="background-image: url('https://images.unsplash.com/photo-1620266757065-5814239881fd?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
+        <h3>Mountains - Clouds</h3>
+      </div>
+
+    </div>
+
+
+
+      
+    </div>
+
+    <script >
+        const panels = document.querySelectorAll('.panel')
+
+panels.forEach(panel => {
+    panel.addEventListener('click', () => {
+        removeActiveClasses()
+        panel.classList.add('active')
+    })
+})
+
+function removeActiveClasses() {
+    panels.forEach(panel => {
+        panel.classList.remove('active')
+    })
+}
+    </script>
+  </body>
+</html>

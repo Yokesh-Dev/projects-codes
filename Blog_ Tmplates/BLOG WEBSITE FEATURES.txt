@@ -1,0 +1,15 @@
+BLOG WEBSITE FEATURES
+
+
+https://dev.to/juanbelieni/video-preview-on-hover-with-html-and-javascript-1b00   Hover over Video play
+https://www.geeksforgeeks.org/how-to-set-the-thumbnail-image-on-video-in-html-5/  Thumbnail Image in Video
+https://medium.com/@reactcompany01/how-to-create-a-blog-app-with-reactjs-b8c0a56fcde1    React Model for Blog
+https://www.youtube.com/watch?v=HYv55DhgTuA   next js blog 
+https://www.30secondsofcode.org/css/s/hover-underline-animation/    Hover Underline   //sample https://filiphric.com/cypress-basics-before-beforeeach-after-aftereach
+
+
+Title--Caption
+Video
+Description 
+Audio
+Label  

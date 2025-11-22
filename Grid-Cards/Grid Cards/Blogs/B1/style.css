@@ -1,0 +1,57 @@
+:root {
+    --bdr1: #000 solid 1px;
+    --bdr2: #000 solid 2px;
+
+  }
+  * {
+    box-sizing: border-box;
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  body {
+    height: auto;
+    width: auto;
+    margin: 0;
+    overflow-x: hidden;
+    padding: 1rem;
+    background: #ffffed;
+  }
+
+  /* blog-header/Blog Title */
+  .blog-header {
+    margin-top: 1rem;
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    border: var(--bdr2);
+    background:lightblue;
+  }
+  
+  /* Fake image */
+  .blog-fake-img {
+    border: var(--bdr1);
+    background-color: #aaa;
+    width: 100%;
+    background:lightblue;
+    
+  }
+  
+  /* Add a card effect for articles */
+  .blog-card {
+    border: var(--bdr2);
+    background-color: #f0fff0;
+    padding: 1rem;
+    margin-top: 1rem;
+    background:lightblue;
+    
+  }
+  
+  /* Clear floats after the columns */
+  .blog-container {
+
+    background-color:black;
+    
+  }
+
+
+

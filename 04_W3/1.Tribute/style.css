@@ -1,0 +1,30 @@
+#Title {
+    text-align: center;
+    font-size: 35px;
+    color: goldenrod;
+    text-shadow: 5px 5px 10px grey ;
+    
+}
+
+#Picture1 {
+    text-align: center;
+}
+
+#Picture11 {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border: 5px solid royalblue;
+  padding: 10px;
+  border-radius: 30%;
+  
+  
+  
+}
+
+
+#Intro {
+    text-align: center;
+    font-size: 25px;
+    color: cornflowerblue;
+}
